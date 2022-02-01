@@ -1,0 +1,52 @@
+.hero_image_container{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hero_image {
+  width: 350px;
+}
+
+.hero_text {
+  text-align: center;
+  color:#070439;
+}
+
+.hero_text h1 {
+  font-size: 30px;
+  margin:0;
+}
+
+.hero_text p {
+  font-size: 18px;
+  padding: 20px;
+  margin:0;
+}
+
+.hero_input_button {
+  display:flex;
+  flex-direction:column;
+  margin: auto;
+  text-align: center;
+}
+
+.hero_input_button input, 
+.hero_input_button button{
+    padding:0;
+    border: 0;
+    width: auto;
+    height: 30px;
+    border-radius: 2.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero_input_button input{ 
+  border: 1px solid #070439;
+  margin-bottom: 12px;
+}
+
+.hero_input_button button {
+  color: white;
+  background-color: #3065f8;
+}

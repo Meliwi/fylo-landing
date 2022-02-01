@@ -1,21 +1,26 @@
 .header_container {
-  padding: 30px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
+  overflow: hidden;
+  gap: 12px;
 }
 
-.nav_links ul {
-  padding:0;
+.menu_container ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   list-style: none;
+  padding: 0;
+  gap: 20px;
 }
 
-.nav_links li a {
+.menu_container ul a {
   text-decoration: none;
 }
 
-.nav_links li{
-  display: inline;
-  margin: 20px;
+.logo {
+  width: 100px;
+  height: auto;
+  display: inline-block;
 }

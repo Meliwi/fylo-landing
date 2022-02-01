@@ -1,0 +1,7 @@
+.wrapper {
+  /*Esta propiedad define el tamaño horizontal máximo o vertical de un 
+    elemento bloque*/
+  max-inline-size: 1158px;
+  padding: 20px;
+  margin: auto;
+}

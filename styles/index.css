@@ -1,5 +1,6 @@
 @import "./header.css";
-
-body{
-    margin:0;
+@import "./wrapper.css";
+body {
+  margin: 0;
+  min-block-size: 100vh;
 }

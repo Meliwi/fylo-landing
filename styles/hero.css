@@ -1,7 +1,7 @@
 .hero_image_container{
-    display:flex;
-    justify-content: center;
-    padding: 20px;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .hero_image {
@@ -29,6 +29,7 @@
   flex-direction:column;
   margin: auto;
   text-align: center;
+  align-items: center;
 }
 
 .hero_input_button input, 
@@ -41,12 +42,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.hero_input_button input{ 
-  border: 1px solid #070439;
+.hero_input_button input{
+  width: 350px;
+  height: 40px;
+  border: 0.5px solid #070439;
   margin-bottom: 12px;
+  padding-left: 9px;
 }
 
 .hero_input_button button {
+  width: 360px;
+  height: 40px;
   color: white;
   background-color: #3065f8;
+  transition: all 0.25s;
+}
+
+.hero_input_button button:hover {
+  box-shadow: 0 3px 3px rgba(36, 19, 184, 0.2);
 }

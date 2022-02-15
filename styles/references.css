@@ -1,0 +1,39 @@
+.references {
+    padding-top: 70px;
+}
+
+.references_image_container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 45px 0px;
+}
+
+.references_curve_container {
+    display: flex;
+    justify-content: center;
+}
+
+.references_image_curve {
+    width: 100%;
+}
+
+.references_image_illustration {
+    width: 350px;
+}
+
+.references_info {
+    padding: 25px;
+}
+
+.references_info_container{
+    background:#F8F8FE;
+}
+
+.references_info_title {
+    text-align: center;
+    color:#070439;
+}
+
+.references_info_text{
+    color: #585989
+}

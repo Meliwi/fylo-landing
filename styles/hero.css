@@ -1,5 +1,5 @@
-.hero_image_container{
-  display:flex;
+.hero_image_container {
+  display: flex;
   justify-content: center;
   padding: 20px;
 }
@@ -10,39 +10,41 @@
 
 .hero_text {
   text-align: center;
-  color:#070439;
+  color: #070439;
 }
 
 .hero_text h1 {
   font-size: 30px;
-  margin:0;
+  margin: 0;
 }
 
 .hero_text p {
   font-size: 18px;
   padding: 20px;
-  margin:0;
+  margin: 0;
 }
 
-.hero_input_button {
-  display:flex;
-  flex-direction:column;
+.hero_input_button,
+.access_input_button {
+  display: flex;
+  flex-direction: column;
   margin: auto;
   text-align: center;
   align-items: center;
 }
 
-.hero_input_button input, 
-.hero_input_button button{
-    padding:0;
-    border: 0;
-    width: auto;
-    height: 30px;
-    border-radius: 2.5px;
-    font-family: 'Open Sans', sans-serif;
+.hero_input_button input,
+.hero_input_button button {
+  padding: 0;
+  border: 0;
+  width: auto;
+  height: 30px;
+  border-radius: 2.5px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.hero_input_button input{
+.hero_input_button input,
+.access_input_button input {
   width: 350px;
   height: 40px;
   border: 0.5px solid #070439;
@@ -50,7 +52,8 @@
   padding-left: 9px;
 }
 
-.hero_input_button button {
+.hero_input_button button,
+.access_input_button button {
   width: 360px;
   height: 40px;
   color: white;
@@ -58,6 +61,7 @@
   transition: all 0.25s;
 }
 
+.access_input_button button,
 .hero_input_button button:hover {
   box-shadow: 0 3px 3px rgba(36, 19, 184, 0.2);
 }

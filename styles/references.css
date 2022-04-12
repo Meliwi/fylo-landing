@@ -25,7 +25,7 @@
   padding: 25px;
 }
 
-.references_info_container {
+.references_info_background {
   background: #f8f8fe;
 }
 
@@ -47,6 +47,7 @@
   gap: 12px;
   width: 184px;
   margin: auto;
+  border-bottom: 2px solid transparent;
 }
 
 .references_link:hover {
@@ -110,4 +111,21 @@
 .references_user p {
   margin: 0;
   font-size: 8px;
+}
+
+@media (min-width: 760px) {
+  .references_info_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .references_image_container,
+  .references_info_container {
+    padding-inline-start: 2.8rem;
+    padding-inline-end: 2.8rem;
+    max-inline-size: 1158px;
+    margin: auto;
+  }
+  .references_image_illustration {
+    width: 30rem;
+  }
 }

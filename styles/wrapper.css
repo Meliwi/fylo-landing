@@ -5,3 +5,10 @@
   padding: 20px;
   margin: auto;
 }
+
+@media (min-width: 760px) {
+  .wrapper {
+    padding-inline-start: 2.8rem;
+    padding-inline-end: 2.8rem;
+  }
+}

@@ -58,7 +58,10 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     padding: 60px 40px 60px 40px;
-    gap: 1.25rem;
+  }
+  .footer_about_contact {
+    display: flex;
+    justify-content: center;
   }
   .footer_about_contact ul {
     padding-top: 0;

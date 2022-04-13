@@ -9,7 +9,6 @@
 .footer_contact a {
   display: flex;
   align-items: center;
-  /* flex-direction: column; */
   text-decoration: none;
   color: white;
   padding-top: 15px;
@@ -58,5 +57,18 @@
   .footer_container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    padding: 60px 40px 60px 40px;
+    gap: 1.25rem;
+  }
+  .footer_about_contact ul {
+    padding-top: 0;
+  }
+  .footer_about_contact ul li a:hover {
+    color: #585989;
+  }
+  .footer_icons {
+    padding-top: 0.94rem;
+    padding: 0px;
+    transform: translate(-4rem, 0rem);
   }
 }

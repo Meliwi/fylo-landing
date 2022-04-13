@@ -48,7 +48,7 @@
   width: 350px;
   height: 40px;
   border: 0.5px solid #9d8afda3;
-  margin-bottom: 12px;
+  margin-bottom: 12px;  
   padding-left: 9px;
 }
 
@@ -64,6 +64,7 @@
 .access_input_button button,
 .hero_input_button button:hover {
   box-shadow: 0 3px 3px rgba(36, 19, 184, 0.2);
+  background-color: #6b9bff;
 }
 .hero_input_button input:focus {
   outline: none !important;

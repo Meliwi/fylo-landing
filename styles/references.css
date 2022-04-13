@@ -117,6 +117,8 @@
   .references_info_container {
     display: grid;
     grid-template-columns: 50% 50%;
+    transform: translate(0px, -50px);
+    gap: 2.5rem;
   }
   .references_image_container,
   .references_info_container {
@@ -124,6 +126,20 @@
     padding-inline-end: 2.8rem;
     max-inline-size: 1158px;
     margin: auto;
+  }
+  .references_image_illustration {
+    width: 22rem;
+  }
+  .references_info_title {
+    font-size: 1.8rem;
+  }
+  .references_curve_container {
+    transform: translate(0px, 55px);
+  }
+}
+@media (min-width: 860px) {
+  .references_info_container {
+    gap: 4.5rem;
   }
   .references_image_illustration {
     width: 30rem;
